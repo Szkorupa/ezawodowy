@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="styl.css">
+    <title>Komputery</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="baner">
+                <img src="banner.png">
+            </div>
+            <div class="menu">
+            
+                    <a href="index.html">Strona Główna</a>
+                    <a href="kontakt.html">Kontakt</a>  
+                
+            </div>
+        </header>
+        <section>
+            <div class="blok2">
+                <h3>Kontakt</h3>
+                <tr>
+                    <td>Imię: <input type="text" name="imie" id="imie"></td>
+                </tr>
+                <tr>
+                    <td>Nazwisko: <input type="password" name="nazwisko" id="nazwisko"></td>
+                </tr>
+                <tr>
+                    <td>E-Mail: <input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Zgłoszenie:
+                        <select id="lista">
+                            <option>Naprawa Komputerów</option>
+                            <option>Odzyskiwanie Danych</option>
+                            <option>Wirusy</option>
+                            <option>Konfiguracja LAN</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <input type="checkbox"><label>Wyślij kopie wiadomości</label>
+                </tr>
+                <tr>
+                    <td><button onclick="clean()">Czyść</button><button onclick="send()">Wyślij</button></td>
+                </tr>
+                <tr>
+                    <div id="data">Test</div>
+                    <div id="mail">test</div>
+                    <div id="reason">test</div>
+                </tr>
+            </div>
+        </section>
+        <footer>Autor: 000000 </footer>
+
+        <script src="index.js"></script>
+</body>
+</html>

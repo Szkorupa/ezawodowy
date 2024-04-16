@@ -1,0 +1,58 @@
+html,body{
+    background-color: #E0F7FA;
+    font-family: Arial;
+    text-align: center;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.baner{
+    background-color: #00838F;
+    height: 200px;
+}
+.menu{
+    background-color: #006064;
+    padding: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.blok{
+    height: 350px;
+    width: 33.3%;
+    text-align: center;
+}
+
+FOOTER{
+    background-color: #006064;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+
+footer span{
+    font-style: italic;
+}
+.blok2{
+    text-align: center;
+    display: block;
+}
+
+
+
+/* Kontakt */

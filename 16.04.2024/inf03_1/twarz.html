@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl7.css">
+    <title>Salon kosmetyczny</title>
+</head>
+<body>
+    <main>
+        <div class="left">
+            <div class="left-box1">
+                <h2>Nasza oferta</h2>
+                <ol>
+                    <a href="twarz.html" class="no-padding"><li>Oczyszczanie twarzy</li></a>
+                    <ul>
+                        <li>Peeling</li>
+                        <li>Maska</li>
+                    </ul>
+                    <li>Masaż</li>
+                    <li>Makijaż</li>
+                </ol>
+                <a href="index.html">Strona główna</a>
+            </div>
+            <div class="left-box2">
+                <img src="obraz1.jpg" alt="personel">
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <h2>Usługi kosmetyczne</h2>
+            </div>
+            <div class="content">
+                <h3>Kalkulator ceny wizyty</h3>
+                <form>
+                    <div>
+                        <input type="checkbox" id="peeling">
+                        <label>Peeling</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="maska">
+                        <label>Maska</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="masaz">
+                        <label>Masaż twarzy</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="makijaz">
+                        <label>Makijaż</label>
+                    </div>
+                    <button onclick="licz()" type="button">Oblicz cene</button>
+                </form>
+                <p id="wynik">Cena zabiegu: <span id="wynik">suma</span></p>
+            </div>
+        </div>
+    </main>
+    <footer>Autor: Maksymilian Szkorupa</footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
